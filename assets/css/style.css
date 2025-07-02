@@ -1,0 +1,15 @@
+@import url("../css/common.css");
+
+header .navbar {
+  height: 100px;
+}
+header .navbar .logo {
+  color: #1E3542;
+}
+header ul {
+  list-style: none;
+  gap: 20px;
+}
+header ul li a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

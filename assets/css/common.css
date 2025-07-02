@@ -1,0 +1,49 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rozha+One&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/RiaSans-ExtraBold.woff2");
+
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  font-family: "RiaSans-ExtraBold";
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128px;
+  line-height: 140%;
+  letter-spacing: 1%;
+}
+
+h2 {
+  font-family: "Rozha One", serif;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 1%;
+}
+
+h3 {
+  font-family: "RiaSans-ExtraBold";
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: 1%;
+}
+
+p {
+  font-family: "RiaSans-ExtraBold";
+  line-height: 180%;
+  letter-spacing: 1%;
+}/*# sourceMappingURL=common.css.map */

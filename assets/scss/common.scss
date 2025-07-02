@@ -1,0 +1,85 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rozha+One&display=swap');
+@import url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/RiaSans-ExtraBold.woff2');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'MangoDdobak-R';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-R.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'RiaSans-ExtraBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 1%;
+}
+
+h1 {
+    font-family: 'Rozha One', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 140%;
+    letter-spacing: 1%;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Rozha One', serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 140%;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 1%;
+    color: #fff;
+    margin: 0;
+}
+
+p{
+    font-family: 'MangoDdobak-R';
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.btn{
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 140%;
+    letter-spacing: 1%;
+    transition-duration: 0.6s;
+}
+
+a{
+    text-decoration: none;
+}
